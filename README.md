@@ -95,6 +95,11 @@ Create a Docker container with GNAF and the Admin Bdys ready to go, so they can 
 4. Run docker-compose: `docker-compose up`. The database will be built.
 5. Use the constructed database as you wish.
 
+> IMPORTANT: If running Docker on Windows make sure that
+>
+> a. Your docker daemon is set to Linux Containers mode
+> b. You cloned this repo with `core.autocrlf=input`
+
 ## Option 3 - Load PG_DUMP Files
 Download Postgres dump files and restore them in your database.
 
